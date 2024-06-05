@@ -3,6 +3,12 @@
 @import "footer.css";
 @import "main.css";
 
+/* 변수 지정 */
+:root {
+  --button-primary: #fe6f0f;
+  --button-hover: rgba(254, 111, 15, 0.8);
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
     "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
