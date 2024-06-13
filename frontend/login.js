@@ -19,26 +19,8 @@ const handleSubmit = async (event) => {
 
   window.location.pathname = "/";
 
-  //   세션 스토리지
-  //   window.sessionStorage.setItem("token", accessToken);
-
   const infoDiv = document.querySelector("#info");
   infoDiv.innerText = "로그인 되었습니다";
-
-  //   window.location.pathname = "/";
-
-  //   const btn = document.createElement("button");
-  //   btn.innerText = "상품 가져오기!";
-  //   btn.addEventListener("click", async () => {
-  //     const res = await fetch("/items", {
-  //       headers: {
-  //         Authorization: `Bearer ${accessToken}`,
-  //       },
-  //     });
-  //     const data = await res.json();
-  //     console.log(data);
-  //   });
-  //   infoDiv.appendChild(btn);
 };
 
 form.addEventListener("submit", handleSubmit);
