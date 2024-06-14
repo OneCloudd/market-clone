@@ -42,9 +42,9 @@
   onMount(() => checkLogin());
 </script>
 
-{#if isLoading}
-  <Loading />
-{:else if !$user$}
+<!-- {#if isLoading}
+  <Loading /> -->
+{#if !$user$}
   <Login />
 {:else}
   <Router {routes} />
